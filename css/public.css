@@ -1,0 +1,27 @@
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, fieldset, form, input, select, textarea, button, figure{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #666;
+  font-size: 100%;
+}
+
+ul,li,ol{
+  list-style: none;
+}
+a{text-decoration: none;}
+body{
+  word-break: break-all;
+  background-color: #F1F2ED;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, fieldset, form, input, select, textarea, button, figure{
+  margin: 0;
+}

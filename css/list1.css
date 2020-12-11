@@ -1,0 +1,366 @@
+.header{
+  width: 100%;
+  height: 80px;
+}
+
+.header_1{
+  background-color: black;
+  margin: 0 auto;
+  width: 1197px;
+  position: relative;
+  height: 80px;
+  color: #ffffff;
+}
+.logo{
+  width: 163px;
+  height: 22px;
+  background: url(https://image.converse.com.cn/images/commons/header-footer-new3.png) no-repeat;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+.hide{
+  display: none;
+}
+.header_right{
+  height: 80px;
+  font-size: 12px;
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-right: 33px;
+}
+.log{
+  margin-right: 5px;
+  cursor: pointer;
+  
+
+}
+.register{
+  margin-right: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+.user_img{
+  height: 31px;
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  width: 30px;
+  display: inline-block;
+  cursor: pointer;
+  background-position: -96px -85px;
+ }
+ .user_img:hover{
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -136px -66px;
+ }
+.cart{
+  margin-left: 32px;
+  margin-right: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+}
+.cart_img{
+  width: 30px;
+  height: 31px;
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -168px -97px;
+  display: inline-block;
+  line-height: 28px;
+  text-align: center;
+  font-size: 18px;
+  
+}
+
+.consults{
+  width: 31px;
+  height: 30px;
+  display: inline-block;
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -95px -54px;
+  cursor: pointer;
+  margin-left: 40px;
+  cursor: pointer;
+
+  
+}
+.consults:hover{
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -135px -33px;
+}
+.search{
+  width: 31px;
+  height: 30px;
+  display: inline-block;
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -137px -161px;
+  margin-left: 38px;
+  cursor: pointer;
+
+
+}
+.search:hover{
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -135px -2px;
+}
+.help{
+  width: 31px;
+  height: 30px;
+  display: inline-block;
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -169px -161px;
+  margin-left: 38px;
+  cursor: pointer;
+
+  
+
+}
+.help:hover{
+  background-image: url(https://image.converse.com.cn/images/commons/sprites_header_footer.png);
+  background-position: -167px -2px;
+}
+
+#hot{
+
+  height: 30px;
+  margin: 40px auto;
+  max-width: 1000px;
+  text-align: center;
+  
+
+}
+#hot:before{
+  background-color: #b7b7b7;
+    content: "";
+    height: 1px;
+    left: 1.5%;
+    position: absolute;
+    top: 15px;
+    width: 97%;
+}
+#hot>h1{
+    display: inline-block;
+    /* *display: inline; */
+    zoom: 1;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 0 4%;
+    position: relative;
+    font-size: 30px;
+    font-weight: normal;
+    color: #333333;
+    
+}
+
+/* 筛选区域 */
+.screen{
+  width: 25%;
+  float: left;
+}
+.screen_1{
+  width: 100%;
+  margin-top: 10px;
+}
+.screen_1 ul>li{
+  cursor: pointer;
+  font-size: 18px;
+}
+.screen_1 li::before{
+  content: '+';
+
+}
+.screen_1 li.active::before {
+  content:'-';
+}
+.screen_1>ul>li>ol{
+  display: none;
+}
+.screen_1>ul>li>ol>li{
+  margin: 10px 0;
+}
+.screen_1>ul>li{
+  margin: 20px 0;
+  border-bottom: 1px solid #333333;
+  padding: 10px;
+}
+.screenRight{
+  float: left;
+  width: 75%;
+  height: 30px;
+  /* background: lightblue; */
+}
+.sortBox{
+  line-height: 40px;
+  margin-bottom: 30px;
+  height: 40px;
+}
+.sortTitle{
+  line-height: 40px;
+  margin-right: 20px;
+  float:left;
+}
+.sort-list a{
+  padding: 3px 15px;
+    border: 1px solid #ccc;
+}
+.sort-list a.active{
+  background-color: black;
+  color: #ffffff;
+
+}
+
+.commodity dl{
+  width: 33%;
+  height: 333px;
+  float: left;
+  /* position: relative; */
+  font-size: 14px;
+  box-sizing: border-box;
+
+} 
+.commodity dl:hover{
+  border: 1px solid #b7b7b7;
+    transition-duration: .3s;
+}
+.commodity dl dt{
+  text-align: center;
+}
+.commodity>dl img{
+  width:170px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+
+}
+
+.commodity dl .p_d{
+  width: 20px;
+  height: 8px;
+  background-color: green;
+  border-radius: 20%;
+
+}
+
+.addCart{
+  background-color: green;
+  width: 92px;
+  height: 33px;
+  display: block;
+  line-height: 33px;
+  float: left;
+  border-radius: 15px;
+  text-align: center;
+  margin-left: 25px;
+}
+
+.btn-warning{
+  background-color: skyblue;
+  width: 92px;
+  height: 33px;
+  display: block;
+  line-height: 33px;
+  float: right;
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 20px;
+}
+.commodity dd{
+  text-align: center;
+}
+.p_name{
+  height: 55px;
+  
+}
+.p_b{
+  text-decoration: line-through;
+  font-size: 13px;
+
+}
+.p_c{
+  color: red;
+  font-size: 13px;
+}
+
+
+
+/* 分页器 */
+.paging{
+  width: 100%;
+  height: 45px;
+  background:gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paging>.m-style .active{
+  background-color: #333;
+}
+.paging>.m-style .active{
+  width: 90px;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination a {
+  padding: 0 5px;
+  border: 1px solid #333;
+  margin: 0 5px;
+}
+.panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.screen_2>li.active{
+  border-bottom: 1px black solid;
+  border-left: 1px black solid;
+}
+
+.center{
+  height: 1750px;
+}
+
+.screenBox .screen .screen_1 ul{
+  background-color: #fff;
+
+}
+
+
+.ul-1 {
+  position: absolute;
+  top: 100%;
+  width: calc(100% + 1px);
+  padding: 20px;  
+  box-sizing: border-box;
+  border: 1px solid black;
+background-color: #fff;
+  display: none;
+}
+
+.ul-1.active{
+  display: block;
+}
+
+.ul-1 > li {
+  list-style: none;
+  width: 100%;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.ul-1 > li:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+/* =============================== */
+
+

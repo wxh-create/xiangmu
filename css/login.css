@@ -1,0 +1,247 @@
+h1, h2, h3, h4, h5, h6, ul, li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #666;
+  font-size: 100%;
+}
+
+
+
+
+.signin-page-wrap{
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Franklin-Demi","microsoft yahei","microsoft yahei";
+  margin-top: 60px;
+}
+
+.signin{
+  padding-bottom: 20px;
+}
+
+.signin-page-warp .clearfix{
+  background-color: #F1F2ED;
+}
+
+.Head #hd_bg div a{
+  color: #fff;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+.maxArticle a{
+  color: #fff;
+  text-align: center;
+  display: block;
+  background-color: black;
+}
+
+.signupin-content{
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #c9caca;
+  background-color: #fff;
+  margin-top: 60px;
+}
+
+.sign-title{
+  margin-top: 35px;
+  border: 0;
+  margin-bottom: 10px;
+  padding-left: 59px;
+}
+.sign-title{
+  height: 44px;
+}
+
+.trust-signin{
+  margin: 25px 59px 5px;
+  border: 0;
+}
+
+.sign-title h2.active{
+  border-bottom: 2px solid;
+  padding: 0;
+  color: #C9192E;
+}
+
+.sign-title h2{
+  font: 600 24px/44px "Franklin-Demi",'冬青黑体',"microsoft yahei";
+  width: 160px;
+  text-align: left;
+  background: #fff;
+  float: left;
+  cursor: pointer;
+
+}
+
+.signupin-content .form-item{
+  margin-bottom: 20px;
+  height: auto;
+  overflow:visible;
+}
+
+.signupin-content .form-act{
+  /* padding-left: 59px; */
+  margin-left: 0;
+  position: relative;
+  display: block;
+}
+
+.signupin-content .x-input{
+  width: 458px;
+  padding: 11px 0;
+  padding-left: 22px;
+  border-color: #d7d8d4;
+  font-size: 16px;
+  font-family: "Franklin","冬青黑体","microsoft yahei";
+  height: 50px;
+  line-height: 26px;
+}
+
+.signupin-content .form-item-normal{
+  overflow: hidden;
+  font-size: 116.66667%;
+}
+
+.signupin-content .form-act{
+  /* padding-left: 59px; */
+  margin-left: 0;
+}
+
+.signupin-content .btn-big{
+  font-size: 100%;
+}
+
+.signin .btn-major span{
+width: 310px;
+height: 50px;
+line-height: 50px;
+padding: 0;
+font-size: 16px;
+border: none;
+display: block;
+background-color: #C9192E;
+color: #fff;
+cursor: pointer;
+}
+
+.signin .btn-major span:hover{
+  background-color: black;
+  transition: all .5s;
+}
+
+.btn {
+  border: 0 none;
+  background-color: transparent;
+  padding: 0;
+
+}
+
+
+.signupin-content a{
+  margin: 0;
+}
+
+.signupin-content .form-item.oh{
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.signin .form-item.oh .fr{
+  margin-right: 59px;
+  line-height: 32px;
+  color: #d2d2d2;
+  font-size: 16px;
+  width: auto;
+  font-weight: normal;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+}
+
+.fl{
+  float: left;
+}
+
+.form-item-normal .btn-passport{
+  width: 150px;
+  margin-left: 20px;
+
+  height: 50px;
+  background: #000;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  line-height: 50px;
+}
+
+.signin .form-label{
+  display: none;
+}
+
+.signupin-content .form-label{
+  height: 32px;
+  overflow: hidden;
+
+}
+
+.form-label{
+  text-align: right;
+  float: left;
+  width: 5.2em;
+  line-height: 2.1em;
+  min-height: 1em;
+}
+
+.signin-page-wrap{
+  background:none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-family: "Franklin-Demi","microsoft yahei","microsoft yahei";
+  margin-top: 60px;
+}
+
+.trust-signin span{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+  vertical-align: middle;
+  line-height: 37px;
+}
+
+
+
+.trust-signin .bg-1{
+  display: inline-table;
+  background: url(weichat-round-inactive-36.svg) no-repeat center center;
+  background-size: 40px 40px;
+}
+
+.trust-signin a img{
+  opacity: 0;
+}
+
+.trust-signin .bg-2{
+  background: url(./weibo-square-inactive-36.svg) no-repeat center center;
+  display: inline-table;
+  background-size: 40px 40px;
+}
+
+.trust-signin .bg-3{
+  background: url(qq-round-inactive-36.svg) no-repeat center center;
+  display: inline-table;
+  background-size: 40px 40px;
+}
+
+.trust-signin .bg-4{
+  background: url(zhifubao.svg) no-repeat center center;
+  display: inline-table;
+  background-size: 40px 40px;
+}
+
+.trust-signin .bg-1:hover{
+  color: #50C232;
+}

@@ -1,0 +1,99 @@
+.pathbox-div{
+    width: 100%;
+    background:url(bw.png) repeat-x left bottom;
+    padding-bottom: 3px;
+    margin-bottom: 22px;
+}
+
+.gallery-page .maxpathbox{
+    overflow: hidden;
+    height: 88px;
+}
+
+.maxpathbox{
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.gallery-page .maxpathbox .maxPath{
+    width: auto;
+    margin: 29px 0;
+}
+
+.maxpathbox .maxPath{
+    float: left;
+    margin: 20px;
+}
+
+.maxpathbox .gallery-select-sort{
+    float: right;
+    margin: 20px 0;
+
+}
+
+.gallery-select-sort{
+    display:inline-block ;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Franklin-Roman","冬青黑体","microsoft yahei";
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    position: relative;
+}
+
+.bebNav .beb-nav.first{
+    padding-left: 0;
+}
+
+.bebNav .beb-nav{
+    float: left;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+    color: #589BC6;
+    font-weight: 600;
+    padding: 0 34px 0 30px;
+    background-size: 9px auto;
+    white-space: nowrap;
+}
+
+.bebNav .beb-nav.last{
+    color: #64686b;
+    background: none;
+}
+
+.maxpathbox .gallery-select-sort{
+    float: right;
+    margin: 20px 0;
+}
+
+.gallery-select-sort .select-action-orderby{
+    width: 240px;
+    height: 46px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: "Franklin-Roman","冬青黑体","microsoft yahei";
+    border: 0;
+    color: 0 ;
+    color: #666;
+    vertical-align: 0;
+}
+
+.gallery-select-sort label{
+    display: inline-block;
+    margin-left: 20px;
+    height: 46px;
+    line-height: 46px;
+    text-align: right;
+}
+
+.gallery-select-sort .select-action-orderby .vans-icon-arr-b{
+    float: right;
+    line-height: 46px;
+    margin-right: 10px;
+    font-size: 12px;
+    transform: scale(.7);
+}

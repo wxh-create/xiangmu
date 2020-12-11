@@ -1,0 +1,754 @@
+body{
+  color: #666;
+  font: 14px/150%  "Franklin-Book", Helvetica, 
+        Arial, "冬青黑体", "Hiragino Sans GB",
+        "microsoft yahei", "SimHei", sans-serif;
+}
+
+ul.active {
+  display: block;
+}
+
+.Head{
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  z-index: 9999;
+}
+
+.header{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+div{display: block;}
+
+.header .top{
+  width: 100%;
+  max-width: 1300px;
+  height: 48px;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header .top a{
+  text-decoration: none;
+  color: #9b9b9b;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header .top > div{
+  float: right;
+  font:15px/48px "Franklin-Demi","冬青黑体","microsoft yahei";
+  margin-left: 20px;
+  z-index: 9999;
+  letter-spacing: 1px;
+}
+
+.hdMenuBox{
+  background-color: #fff;
+  z-index: 9;
+}
+
+.hdMenuBox .cur{
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.hdMenuBox .cur .curr{
+  top: 0;
+}
+
+.hdMenu{
+  width: 100%;
+  max-width: 1300px;
+  height: 130px;
+  margin: 0 auto;
+  /* position: relative; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  background-color: #fff;
+}
+
+.clear{
+  clear: both;
+  /* position: fixed; */
+  /* width: 1600px; */
+}
+
+#bingav {
+  position: sticky;
+  top: -60px;
+  /* border-bottom: 1px solid #333; */
+  box-shadow: 0px 1px 0px #333;
+  transition: all .5s;
+}
+
+.hdMenu .Logo{
+  width: 156px;
+  height: 130px;
+  background: url(https://img3.vans.com.cn/themes/Vans/images/vans-logo.svg) no-repeat left center;
+  background-size:156px auto ;
+  cursor: pointer;
+  position: absolute;
+}
+
+.hdMenu .Logo a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.f1{
+  float: left;
+}
+
+.hdSearch{
+  float: right;
+  margin-top: 70px;
+  position: relative;
+}
+.hdSearch .maxSearch{
+  width: 178px;
+  height: 26px;
+  line-height: 20px;
+  border: 1px solid #d2d2d2;
+  margin-top: 7px;
+  position: relative;
+}
+.hdSearch .inputstyle{
+  float: left;
+  width: 146px;
+  height: 20px;
+  border: 0;
+  padding: 0;
+  text-indent: 10px;
+  outline: none;
+  margin-top: 2px;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+  font-size: 10px;
+  opacity: .5;
+  font-weight: bold;
+  color: #9b9b9b;
+}
+
+.hdSearch .btn_search{
+  width: 30px;
+  height: 26px;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  background: none;
+  float: right;
+}
+
+.hdSearch .maxkey{
+  position: absolute;
+  display: none;
+  z-index: 9999;
+  right: 0;
+  top: 35px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, .8);
+}
+
+.hdSearch .maxkey > a{
+  display: block;
+  color: #fff;
+  padding: 0 12px;
+  line-height: 2;
+  margin: 5px 0;
+}
+
+.hdSearch .maxkey ul{
+  padding-bottom: 5px;
+}
+
+.hdSearch .maxkey ul li{
+  padding: 10px 12px;
+  border-top: 1px dotted #999;
+}
+
+#Menu{
+  margin-top: 71px;
+  margin-right: 10px;
+  z-index: 9999;
+}
+.fr{
+  float: right;
+}
+
+#Menu .item,#Menu>ul.shopWidgets_box>li{
+  float: left;
+  padding-right: 10px;
+}
+
+#Menu .lv1 a{
+  color: #000;
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+}
+
+#Menu .lv1 .arr a{
+  padding-right: 18px;
+  position: relative;
+}
+
+#Menu .lv1 .icon-ai-arrow-down{
+  font-size: 12px;
+  font-weight: normal;
+  /* position: absolute; */
+  right: 0;
+  line-height: 40px;
+  top: 0;
+  transform: scale(.5);
+  transform-origin: 100% 50%;
+}
+
+#Menu .lv1 a em{
+  letter-spacing: 1px;
+}
+em{
+  font-style: normal;
+}
+
+#Menu .lv1{
+  position: relative;
+  height: 50px;
+  padding-left: 1px;
+}
+
+#Menu .lv1 > i{
+  display: none;
+  width: 0;
+  height: 0;
+  border: 1px solid transparent;
+  border-bottom-color:#000 ;
+  border-width: 12px 8px;
+  position: absolute;
+  top: 26px;
+  left: 50%;
+}
+#Menu .lv1 > i.active{
+  display: block;
+}
+#Menu .huaban a{
+  padding-top: 8px;
+}
+
+#Menu .lv1 a:hover{
+  color: #D3192E;
+  
+}
+
+.Head .hdbg{
+  width: 100%;
+  height: 20px;
+  background-color: #000;
+  font-weight:normal ;
+  text-align: center;
+  font-size: 12px;
+}
+
+.Head #hd_bg div{
+  font-family: franklin-gothic-urw-cond,Arial Narrow Bold,Arial,sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: .8125em;
+  letter-spacing: 0.08em;
+  position: relative;
+  text-align: center;
+}
+
+.Head #hd_bg div a{
+  color: #fff;
+  text-decoration: none;
+  line-height: inherit;
+}
+
+.indexPage{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper-container {
+  width: 1440px;
+  height: 600px;
+}  
+
+.index-article{
+  margin-top: 22px;
+  position: relative;
+  
+}
+
+.index-col{
+  margin-top: 72px;
+}
+
+.artcle-list{
+  overflow: hidden;
+  position: relative;
+  margin: 0 -12px;
+}
+
+.indexPage .swiper-wrapper, .indexPage .swiper-slide a img, .article-content .swiper-wrapper, .article-content .swiper-slide a img{
+  width: auto;
+  height: auto;
+}
+
+.index-col ul li{
+  float: left;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.index-article .img{
+  text-align: center;
+}
+.indexPage .index-article .swiper-slide a{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.indexPage .index-article .swiper-slide a img{
+  width: 100%;
+}
+
+.index-article .info{
+  padding: 0 12px;
+  text-align: center;
+}
+
+.index-article .tit{
+  padding: 15px;
+  margin-top: 8px;
+}
+
+.indexPage .index-article .swiper-slide a{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.index-article .briefing{
+  padding: 0 20px;
+  color: #333;
+  font-size: 16px;
+  height: 46px;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+}
+
+.index-article .info .btn{
+  display: block;
+  width: 180px;
+  height: 48px;
+  line-height: 48px;
+  background: #2b2b2b;
+  color: #fff;
+  font-size: 16px;
+  margin: 15px auto 0;
+  text-align: center;
+
+}
+
+.index-article .index-col .artcle-list{
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.index-article .tit a{
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.index-article .img{
+  overflow: hidden;
+}
+
+.index-article .img img{
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.index-article .img img:hover{
+  transform: scale(1.1);
+}
+
+/* 尾部 */
+
+.maxFooter{
+  width: 100%;
+  position: relative;
+  background-color: #1c1c1c;
+  margin-top: 60px;
+}
+
+.maxFooter .footer{
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+.footer .foot-l{
+  width: 33.333%;
+  min-height: 265px;
+  border-right: 1px solid #919191;
+}
+
+.fl{
+  float: left;
+}
+
+.footer .foot-c{
+  margin-left: 40px;
+}
+
+.footer .foot-r{
+  width: 330px;
+  height: 265px;
+  border-left: 1px solid #919191;
+}
+
+.fr{
+  float: right;
+}
+
+.footer .foot-l .title span{
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  line-height: 26px;
+}
+
+.footer .foot-l .article{
+  overflow: hidden;
+  margin: 25px 0 15px;
+}
+
+
+.footer .foot-l .article .content-list, .footer .foot-l .article .shopmax-keys{
+  float: left;
+  width: 170px;
+}
+
+.footer .foot-l .shopmax-keys dd a{
+  display: block;
+  text-transform: uppercase;
+}
+
+.footer .foot-l .article a{
+  font: 15px/26px "Franklin-Book","冬青黑体","microsoft yahei";
+  color: #589bc6;
+}
+
+.article dl dt{
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer .foot-c dl dd{
+  margin-top: 25px;
+}
+
+.footer .foot-c dl dt a, .footer .basic-mail h3{
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  cursor:default;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.footer .foot-c dl dd a{
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  cursor: default;
+  line-height: 26px;
+}
+
+.footer .foot-c dl dd a.item-2{
+  color: #589bc6;
+  font-weight: normal;
+  margin: 0px 0 25px 0;
+  cursor: inherit;
+  text-transform: uppercase;
+}
+
+.footer .foot-c dl dd a.item-4{
+  color:#919191;
+  font-weight: normal;
+  margin-top: 0px;
+}
+
+.index-article .info .btn:hover{
+  background-color: black;
+  transition: all 0.5s;
+}
+
+.footer .SureLook h3{
+  margin: 0 0 30px 40px;
+  display: block;
+  width: 220px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer .basic-mail{
+  margin-left: 40px;
+}
+
+.footer .SureLook ul{
+  margin-left: 40px;
+}
+
+.footer .SureLook ul li{
+  float: left;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+  background:#64686b ;
+  /* opacity: .5; */
+  /* border: 1px solid #fff; */
+}
+.footer .SureLook ul li img{
+  width: 100%;
+  /* opacity: 0; */
+}
+
+.footer .SureLook .item-1:hover{
+  background: greenyellow;
+  transition: all 0.5s;
+}
+
+.footer .SureLook .item-2:hover{
+  background: greenyellow;
+  transition: all 0.5s;
+
+}
+
+.footer .SureLook .item-3:hover{
+  background: red;
+  transition: all 0.5s;
+
+}
+
+.footer .SureLook .item-4:hover{
+  background: skyblue;
+  transition: all 0.5s;
+
+}
+
+.footer .SureLook .item-5:hover{
+  background: purple;
+  transition: all 0.5s;
+
+}
+
+.F-buttom{
+  width: 1440px;
+  min-height: 91px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+.F-buttom .b-logo{
+  float: left;
+  width: 222px;
+  height: 91px;
+  background:  url(vans-logo-white-1.svg)no-repeat;
+  background-size: 100% auto;
+}
+
+.F-buttom .b-l{
+  float: left;
+  margin-left: 22px;
+}
+.F-buttom a{
+  color: #666;
+  font-style: normal;
+}
+.F-buttom a:hover{
+  color: red;
+}
+
+.article dd a:hover{
+  color: #D3192E;
+  z-index: 999;
+}
+
+
+.b-Country .title{
+  width: 88px;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  cursor: pointer;
+  background: #64686b url(arrow-down-white.svg)no-repeat 78px center;
+  background-size: 12px auto;
+}
+
+.b-Country{
+  position: relative;
+  margin-top: 10px;
+}
+
+.b-Country span{
+  vertical-align: middle;
+  color: #fff;
+
+}
+
+
+.footer .foot-l .shopmax-keys dd a:hover{
+  color: #D3192E;
+}
+.footer .foot-c dl dd a.item-2:hover{
+  color: #D3192E;
+}
+
+#Menu .lv2box{
+  display: none;
+  position: absolute;
+  top: 121px;
+  left: 0;
+  width: 100%;
+  background: #000;
+  z-index: 1009;
+  overflow: hidden;
+}
+
+#Menu .lv2List, #Menu .menu-goods-col{
+  width: 1300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#Menu .lv2List{
+  overflow: hidden;
+  padding: 50px 0;
+  position: relative;
+  z-index: 99;
+}
+
+#Menu .lv2List > ul{
+  display: -webkit-box;
+}
+
+#Menu .lv2List ul li{
+  min-width: 20%;
+  -webkit-box-flex: 1;
+}
+
+#Menu .lv2List .lv2{
+  display: block;
+  font: bold 16px/38px "Franklin-Demi","冬青黑体","microsoft yahei";
+}
+
+#Menu .lv2List .lv2 a{
+  color: #fff;
+}
+
+#Menu .lv2List .lv3{
+  padding-bottom: 10px;
+  font-family: "Franklin-Demi","冬青黑体","microsoft yahei";
+}
+
+#Menu .lv2List .lv3 a{
+  font-size: 15px;
+  line-height: 28px;
+  color: #589BC6;
+  display: block;
+}
+
+#Menu .lv2List .lv3 a:hover{
+  color: #D3192E;
+}
+
+#Menu .item .men-bg{
+  position: absolute;
+  left: -500%;
+  right: -500%;
+  top: 0;
+  display: block;
+  bottom: 0;
+  background: #000;
+  z-index: 1;
+}
+
+
+#Menu .item:hover .lv2box{
+  display: block;
+}
+
+.right-fix{
+  position: fixed;
+  bottom: 181px;
+  right: 0;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  background: url(./kf.png)no-repeat center;
+  background-size: 100% auto;
+}
+
+.problem{
+  width: 60px;
+  height: 60px;
+  display: block;
+  position: fixed;
+  bottom: 120px;
+  right: 0;
+  cursor: pointer;
+  z-index: 2000;
+  background: url(./problem.jpg) no-repeat center center;
+  background-size: 100% auto;
+}
+
+.header .top .hdLinks a:hover{
+  color: #D3192E;
+}
+.header .top .hdCart a:hover{
+  color: #D3192E;
+}
+.header .top .hdLogin a:hover{
+  color: #D3192E;
+}
+
+.fix{
+  left: 50%;
+  transform: rotateX(-50%);
+}
+
+.F-buttom .b-l{
+  float: left;
+  margin-left: 22px;
+}
+
+.logo .min{
+  height: 180px;
+  padding-bottom: 0;
+  background-size: auto 36px;
+  background-position: left center;
+}

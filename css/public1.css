@@ -1,0 +1,33 @@
+.center{
+  width: 1000px;
+  margin: 0 auto;
+}
+body,div,ul,dl,li,ol,h1,h2,h3,h4,h5,h6,p,i,b,input,span,form,button{
+  margin: 0;
+  padding: 0;
+}
+/* body,html{
+  width: 100%;
+} */
+a{
+  text-decoration: none;
+  color: black;
+  
+}
+ul,li,ol{
+  list-style: none;
+}
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+  zoom:1;
+}
+img{
+  vertical-align: top;
+}
+
+input{
+  outline: none;
+}
+
